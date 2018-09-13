@@ -43,7 +43,7 @@
 }
 #sidebar ul li a:hover {
     color: #fff;
-    background: #1d7194;
+    background: #2692c0;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #005266;
+    background: #006680;
 }
 
 .footer_note {

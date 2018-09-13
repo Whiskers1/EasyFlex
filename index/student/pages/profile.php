@@ -7,6 +7,18 @@
  */
 ?>
 
-<div id="content" style="width: 100%; padding: 0px 50px; margin-top: 50px;">
-    <h1>Profile</h1>
+<!-- Content -->
+<div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
+    <div class="row">
+        <div class="col">
+            <h2>Profile</h2>
+            <div class="alert alert-secondary" role="alert">
+                <h4>WIP</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
 </div>
+<!-- /Content -->

@@ -7,26 +7,16 @@
  */
 ?>
 
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 pb-5">
+<div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
     <div class="row">
-        <div class="col d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
-            <div class="btn-toolbar mb-2 mb-md-0">
-                <div class="btn-group mr-2">
-                    <button class="btn btn-sm btn-outline-secondary">Share</button>
-                    <button class="btn btn-sm btn-outline-secondary">Export</button>
-                </div>
-                <button class="btn btn-sm btn-outline-secondary dropdown-toggle"><i class="fas fa-calendar-alt fa-lg"></i> This week</button>
+        <div class="col">
+            <h2>Dashboard</h2>
+            <div class="alert alert-secondary" role="alert">
+                <h4>WIP</h4>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <h1>hej</h1>
-        </div>
-    </div>
-
-    <div class="row border-bottom">
         <div class="col-6">
             <h2 class="border-bottom pb-2">Flex saldo</h2>
             <div class="table-responsive">
@@ -67,4 +57,4 @@
             </div>
         </div>
     </div>
-</main>
+</div>

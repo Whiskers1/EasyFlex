@@ -6,7 +6,7 @@
  * Time: 08:57
  */
 ?>
-
+<!-- Wrapper -->
 <div class="wrapper">
     <!-- Sidebar -->
     <nav id="sidebar">
@@ -47,3 +47,6 @@
             </li>
         </ul>
     </nav>
+    <!-- /Sidebar -->
+    <!-- flex-column -->
+    <div class="d-flex flex-column w-100 ">

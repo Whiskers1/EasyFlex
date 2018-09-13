@@ -27,9 +27,13 @@
         <link rel="stylesheet" href="../../metadata/fontawesome-free-5.3.1/css/all.min.css">
         <!--DataTables css-->
         <link rel="stylesheet" href="../../metadata/DataTables/media/css/dataTables.bootstrap4.min.css">
+        <!--DateTimePicker css-->
+        <link rel="stylesheet" href="../../metadata/css/bootstrap-datetimepicker.css">
         <!--Custom css-->
         <link href="../../metadata/css/custom/student/sidebar.css" rel="stylesheet">
     <!--/CSS-->
+
+
 
     <!--Javascript-->
         <!--jQuery 3.3.1-->
@@ -41,7 +45,10 @@
         <!--DataTables js-->
         <script type="text/javascript" src="../../metadata/DataTables/media/js/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="../../metadata/DataTables/media/js/dataTables.bootstrap4.min.js"></script>
+        <!--DateTimePicker js-->
+        <script type="text/javascript" src="../../metadata/js/bootstrap-datetimepicker.js"></script>
+        <script type="text/javascript" src="../../metadata/js/locales/bootstrap-datetimepicker.da.js"></script>
     <!--/Javascript-->
 
 </head>
-<body class="skin-blue sidebar-mini">
+<body>

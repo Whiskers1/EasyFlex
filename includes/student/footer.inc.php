@@ -6,19 +6,23 @@
  * Time: 08:23
  */
 ?>
-
-</div>
-<footer class="footer_note">
+<!-- Footer -->
+<div class="footer_note">
     <div>
         <p>EasyFlex for
             <a href="https://www.sde.dk">SDE</a>, by
             <a href="https://github.com/Whiskers1">Jacob Mørk Søfeldt</a>.
         </p>
     </div>
-</footer>
+</div>
+<!-- /Footer -->
+</div>
+<!-- /flex-column -->
+</div>
+<!-- /Wrapper -->
 </body>
 </html>
 
-<script type="text/javascript" src="../../includes/student/functions/js/dashboardTables.js" ></script>
+<script type="text/javascript" src="../../includes/student/functions/js/flexDatetimepicker.js"></script>
 
 <?php $conn->close(); ?>

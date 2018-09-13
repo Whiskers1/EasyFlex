@@ -29,7 +29,7 @@
                 <div class="input-group">
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     <div class="input-group-append">
-                        <span class="input-group-text" id="inputGroupPrepend3"><i class="fas fa-key fa-lg"></i></span>
+                        <span class="input-group-text"><i class="fas fa-key fa-lg"></i></span>
                     </div>
                 </div>
             </div>

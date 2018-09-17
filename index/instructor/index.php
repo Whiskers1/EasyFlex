@@ -17,10 +17,10 @@
             include_once $page;
         } else {
             header("Location: pages/404.html");
+            //exit();
         }
     } else {
         include_once 'pages/home.php';
     }
 
     include_once '../../includes/instructor/footer.inc.php';
-?>

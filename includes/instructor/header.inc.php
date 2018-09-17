@@ -6,7 +6,7 @@
  * Time: 08:20
  */
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="../../mediafiles/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../../mediafiles/favicon.ico" type="image/x-icon">
 
-    <title>EasyFlex Student</title>
+    <title>EasyFlex Instructor</title>
 
     <!--CSS-->
         <!--BootStrap css-->
@@ -30,10 +30,8 @@
         <!--DateTimePicker css-->
         <link rel="stylesheet" href="../../metadata/css/bootstrap-datetimepicker.css">
         <!--Custom css-->
-        <link href="../../metadata/css/custom/instructor/sidebar.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../metadata/css/custom/instructor/sidebar.css">
     <!--/CSS-->
-
-
 
     <!--Javascript-->
         <!--jQuery 3.3.1-->

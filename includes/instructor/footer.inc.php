@@ -10,10 +10,7 @@
 <!-- Footer -->
 <div class="footer_note">
     <div>
-        <p>EasyFlex for
-            <a href="https://www.sde.dk">SDE</a>, by
-            <a href="https://github.com/Whiskers1">Jacob Mørk Søfeldt</a>.
-        </p>
+        <p>EasyFlex for <a href="https://www.sde.dk">SDE</a>, by <a href="https://github.com/Whiskers1">Jacob Mørk Søfeldt</a>.</p>
     </div>
 </div>
 <!-- /Footer -->
@@ -21,8 +18,11 @@
 <!-- /flex-column -->
 </div>
 <!-- /Wrapper -->
+
+<script type="text/javascript" src="../../includes/instructor/functions/js/dashboardTables.js"></script>
+<script type="text/javascript" src="../../includes/instructor/functions/js/flexDatetimepicker.js"></script>
+
 </body>
 </html>
 
-<script type="text/javascript" src="../../includes/instructor/functions/js/dashboardTables.js"></script>
 <?php $conn->close(); ?>

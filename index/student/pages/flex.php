@@ -47,7 +47,7 @@
                         <small id="emailHelp" class="form-text text-muted">We'll never share your data with anyone else. WIP</small>
                     </div>
                     <div class="form-group col-6">
-                        <div class="input-append date form_datetime">
+                        <div id="datetimepicker" class="input-append date form_datetime">
                             <label for="exampleInputPassword1">Name*</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" value="" readonly placeholder="Date">

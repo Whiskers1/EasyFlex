@@ -20,9 +20,11 @@
 <!-- /flex-column -->
 </div>
 <!-- /Wrapper -->
+
+<script type="text/javascript" src="../../includes/student/functions/js/flexDatetimepicker.js"></script>
+
 </body>
 </html>
 
-<script type="text/javascript" src="../../includes/student/functions/js/flexDatetimepicker.js"></script>
 
 <?php $conn->close(); ?>

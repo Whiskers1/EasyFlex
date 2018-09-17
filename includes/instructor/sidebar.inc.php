@@ -6,7 +6,6 @@
  * Time: 08:57
  */
 ?>
-
 <!-- Wrapper -->
 <div class="wrapper">
     <!-- Sidebar -->
@@ -18,7 +17,7 @@
         <ul class="list-unstyled components">
             <p><i class="far fa-user fa-2x"></i> Dummy Name</p>
             <li class="active">
-                <a href="index.php"><i class="far fa-chart-bar fa-lg"></i></i> Dashboard</a>
+                <a href="index.php"><i class="far fa-chart-bar fa-lg"></i> Dashboard</a>
             </li>
             <li>
                 <a href="index.php?page=saldo"><i class="far fa-hourglass fa-lg"></i> Check saldo</a>
@@ -30,16 +29,19 @@
                 <a href="index.php?page=profile"><i class="far fa-user fa-lg"></i> Profile</a>
             </li>
             <li>
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i> Home</a>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i> Reports</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="#">Home 1</a>
+                        <a href="index.php?page=report">Report 1</a>
                     </li>
                     <li>
-                        <a href="#">Home 2</a>
+                        <a href="index.php?page=report">Report 2</a>
                     </li>
                     <li>
-                        <a href="#">Home 3</a>
+                        <a href="index.php?page=report">Report 3</a>
+                    </li>
+                    <li>
+                        <a href="index.php?page=report">Report 4</a>
                     </li>
                 </ul>
             </li>

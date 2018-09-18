@@ -17,4 +17,8 @@ $(document).ready(function () {
     $('#dtFlexReport').DataTable({
 
     });
+    $('#dtFlexCode').DataTable({
+        paging: false,
+        info: false
+    });
 });

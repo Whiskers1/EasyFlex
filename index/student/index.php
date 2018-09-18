@@ -6,6 +6,8 @@
  * Time: 12:36
  */
 
+    session_start();
+    ob_start();
     include_once '../../includes/dbh.inc.php';
     include_once '../../includes/student/header.inc.php';
     include_once '../../includes/student/sidebar.inc.php';
@@ -16,7 +18,7 @@
         if (file_exists($page)) {
             include_once $page;
         } else {
-            header("Location: pages/404.html");
+            exit(header("Location: pages/404.html"));
         }
     } else {
         include_once 'pages/home.php';

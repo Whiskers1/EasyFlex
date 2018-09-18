@@ -6,6 +6,7 @@
  * Time: 10:48
  */
 
+    ob_start();
     include_once '../../includes/dbh.inc.php';
     include_once '../../includes/logind/header.inc.php';
 

@@ -21,7 +21,6 @@ if (isset($_POST['search'])) {
     };
 }
 
-
 ?>
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">

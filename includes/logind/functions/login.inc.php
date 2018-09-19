@@ -23,7 +23,8 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
 
-        $sql = "SELECT `id`, `user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd` FROM `users` WHERE `user_uni`='$email' OR `user_email`='$email';";
+        $sql = "SELECT `id`, `user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd`, `user_access` FROM `users` WHERE `user_uni`='$email' OR `user_email`='$email';";
+        $conn->set_charset("utf8");
         $result = $conn->query($sql);
 
         if ($result->num_rows < 1) {
@@ -43,6 +44,7 @@ if (isset($_POST['submit'])) {
                     $_SESSION['u_first'] = $row['user_first'];
                     $_SESSION['u_last'] = $row['user_last'];
                     $_SESSION['u_email'] = $row['user_email'];
+                    $_SESSION['u_acc'] = $row['user_access'];
 
                     header("Location: ../../../index/student/index.php");
                     exit();

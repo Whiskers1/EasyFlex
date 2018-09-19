@@ -24,5 +24,9 @@
         include_once 'pages/home.php';
     }
 
+    if (!isset($_SESSION['u_id'])) {
+        exit(header("Location: ../logind/index.php"));
+    }
+
     include_once '../../includes/student/footer.inc.php';
 ?>

@@ -15,7 +15,18 @@
         </div>
 
         <ul class="list-unstyled components">
-            <p><i class="far fa-user fa-2x"></i> Dummy Name</p>
+            <?php
+                if (isset($_SESSION['u_acc'])) {
+                    if ($_SESSION['u_acc'] == 10) {
+                        echo '<div class="alert alert-info" role="alert">This user are a TempUser</div>';
+                    }
+                }
+
+                if (isset($_SESSION['u_first']) && isset($_SESSION['u_last'])){
+                    echo '<p><i class="far fa-user fa-2x"></i> '.$_SESSION['u_first'].' '.$_SESSION['u_last'].'</p>';
+                }
+            ?>
+
             <li class="active">
                 <a href="index.php"><i class="fas fa-home fa-lg"></i> Home</a>
             </li>

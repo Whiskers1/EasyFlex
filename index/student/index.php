@@ -12,21 +12,26 @@
     include_once '../../includes/student/header.inc.php';
     include_once '../../includes/student/sidebar.inc.php';
 
+    if (!isset($_SESSION['u_id'])) {
+        exit(header("Location: ../logind/index.php"));
+    }
+
     if (isset($_GET['page'])) {
         $page = "pages/" . $_GET['page'] . ".php";
-
-        if (file_exists($page)) {
-            include_once $page;
+        if ($_SESSION['u_acc'] == 10) {
+            include_once 'pages/home.php';
         } else {
-            exit(header("Location: pages/404.html"));
+            if (file_exists($page)) {
+                include_once $page;
+            } else {
+                exit(header("Location: pages/404.html"));
+            }
         }
+
     } else {
         include_once 'pages/home.php';
     }
 
-    if (!isset($_SESSION['u_id'])) {
-        exit(header("Location: ../logind/index.php"));
-    }
 
     include_once '../../includes/student/footer.inc.php';
 ?>

@@ -23,7 +23,8 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
 
-        $sql = "SELECT `id`, `user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd`, `user_access` FROM `users` WHERE `user_uni`='$email' OR `user_email`='$email';";
+        //$sql = "SELECT `id`, `user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd`, `user_access` FROM `users` WHERE `user_uni`='$email' OR `user_email`='$email';";
+        $sql = "CALL SELECT_User('$email', '$email');";
         $conn->set_charset("utf8");
         $result = $conn->query($sql);
 

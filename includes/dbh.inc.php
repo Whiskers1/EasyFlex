@@ -9,6 +9,6 @@
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "test1";
+$dbName = "easyflex";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);

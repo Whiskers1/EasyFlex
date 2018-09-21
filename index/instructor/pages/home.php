@@ -9,30 +9,16 @@
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
     <div class="row">
-        <div class="col">
+        <div class="col" style="height: 200px">
             <h2>Dashboard</h2>
-            <div class="alert alert-secondary" role="alert">
-                <h4>WIP</h4>
-            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <h2 class="border-bottom pb-2">Flex saldo</h2>
+            <h2 class="">Userlist</h2>
             <div class="table-responsive">
-                <table id="dtFlexSaldo" class="table table-striped table-sm">
-                    <thead>
-                    <tr>
-                        <th>UserName</th>
-                        <th>Name</th>
-                        <th>FlexCode</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php include_once '../../includes/instructor/functions/php/getFlexSaldo.inc.php'?>
-                    </tbody>
-                    <tfoot>
-                    </tfoot>
+                <table id="dtUserList" class="table table-striped table-sm">
+                    <?php include_once '../../includes/instructor/functions/php/getUserList.inc.php'?>
                 </table>
             </div>
         </div>
@@ -49,7 +35,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <?php include_once '../../includes/instructor/functions/php/getFlexLog.inc.php'?>
+                    <?php //include_once '../../includes/instructor/functions/php/getFlexLog.inc.php'?>
                     </tbody>
                     <tfoot>
                     </tfoot>

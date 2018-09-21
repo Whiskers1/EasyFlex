@@ -34,7 +34,8 @@ if (isset($_POST['submit'])){
                 exit();
             } else {
                 //Check if uni exists
-                $sql = "SELECT * FROM users WHERE user_name='$uni';";
+                //$sql = "SELECT * FROM users WHERE user_name='$uni';";
+                $sql = "CALL SELECT_User('$uni');";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0){
@@ -47,7 +48,8 @@ if (isset($_POST['submit'])){
                         $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
                         //Insert the user into the database
-                        $sql = "INSERT INTO `users` (`user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd`) VALUES ('$uni', '$first', '$last', '$email', '$hashedPwd');";
+                        //$sql = "INSERT INTO `users` (`user_uni`, `user_first`, `user_last`, `user_email`, `user_pwd`) VALUES ('$uni', '$first', '$last', '$email', '$hashedPwd');";
+                        $sql = "CALL INSERT_User('$uni', '$first', '$last', '$email', '$hashedPwd');";
                         $conn->set_charset("utf8");
                         $result = $conn->query($sql);
                         header("Location: ../../../index/logind/index.php");

@@ -13,7 +13,7 @@
         <div class="col">
             <h2>Saldo</h2>
             <div class="alert alert-secondary" role="alert">
-                <h4>Your balance is <span class="badge badge-info">4</span> hours</h4>
+                <h4>Your balance is <span class="badge badge-info">0</span> hours</h4>
             </div>
         </div>
     </div>

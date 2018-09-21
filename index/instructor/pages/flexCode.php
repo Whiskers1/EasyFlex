@@ -40,18 +40,7 @@
             <h2 class="border-bottom pb-2">Flex codes</h2>
             <div class="table-responsive">
                 <table id="dtFlexCode" class="table table-striped table-sm">
-                    <thead>
-                    <tr>
-                        <th>FlexName</th>
-                        <th>Name*</th>
-                        <th>FlexCode</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php include_once '../../includes/instructor/functions/php/getFlexSaldo.inc.php'?>
-                    </tbody>
-                    <tfoot>
-                    </tfoot>
+                    <?php include_once '../../includes/instructor/functions/php/getFlexCodeList.inc.php'?>
                 </table>
             </div>
         </div>

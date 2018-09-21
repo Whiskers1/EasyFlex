@@ -6,9 +6,7 @@
  */
 
 $(document).ready(function () {
-    $('#dtFlexSaldo').DataTable({
-        paging: false,
-        info: false,
+    $('#dtUserList').DataTable({
     });
     $('#dtFlexLog').DataTable({
         paging: false,
@@ -18,6 +16,10 @@ $(document).ready(function () {
 
     });
     $('#dtFlexCode').DataTable({
+        columnDefs: [
+            { width: "10%", targets: 0 },
+            { width: "30%", targets: 1 }
+        ],
         paging: false,
         info: false
     });

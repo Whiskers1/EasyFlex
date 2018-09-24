@@ -10,19 +10,12 @@
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
     <div class="row">
-        <h1>hej</h1>
     </div>
     <div class="row">
         <div class="col-4">
             <form>
                 <div class="form-group">
                     <label>Add flex code</label>
-                    <div class="input-group mb-1">
-                        <input type="number" class="form-control" placeholder="Flex Code">
-                        <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-sort-numeric-down fa-lg"></i></span>
-                        </div>
-                    </div>
                     <input type="text" class="form-control" placeholder="Flex Name">
 
                     <small class="form-text text-muted">We'll never share your data with anyone else.</small>

@@ -9,8 +9,10 @@
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
     <div class="row">
-        <div class="col" style="height: 200px">
-            <h2>Dashboard</h2>
+        <div class="col" style="">
+            <div class="row">
+
+            </div>
         </div>
     </div>
     <div class="row">

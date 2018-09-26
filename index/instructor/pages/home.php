@@ -9,9 +9,96 @@
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
     <div class="row">
-        <div class="col" style="">
-            <div class="row">
-
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-white bg-primary">
+                <div class="card-header">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xs-3">
+                            <i class="fa fa-comments fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <h2>26</h2>
+                            <div>New Comments!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between">
+                            <span class="pull-left">View Details</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-white bg-success">
+                <div class="card-header">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xs-3">
+                            <i class="fab fa-stack-overflow fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <h2>12</h2>
+                            <div>New Tasks!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between">
+                            <span class="pull-left">View Details</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-white bg-warning">
+                <div class="card-header">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xs-3">
+                            <i class="fa fa-shopping-cart fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <h2>124</h2>
+                            <div>New Orders!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between">
+                            <span class="pull-left">View Details</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card text-white bg-danger">
+                <div class="card-header">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xs-3">
+                            <i class="far fa-life-ring fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <h2>13</h2>
+                            <div>Support Tickets!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between">
+                            <span class="pull-left">View Details</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -25,7 +112,7 @@
             </div>
         </div>
         <div class="col-6">
-            <h2 class="border-bottom pb-2">Flex log</h2>
+            <h2 class="">Flex log</h2>
             <div class="table-responsive">
                 <table id="dtFlexLog" class="table table-striped table-sm" data-order='[[ 3, "desc" ]]'>
                     <thead>

@@ -3,17 +3,27 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
-$app = new \Slim\App;
+// Get all customer
+$app->get('/api/customers', function (Request $request, Response $response) {
 
-$app->options('/{routes:.+}', function ($request, $response, $args) {
-    return $response;
-});
-$app->add(function ($req, $res, $next) {
-    $response = $next($req, $res);
-    return $response
-        ->withHeader('Access-Control-Allow-Origin', '*')
-        ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
-        ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+
+    $sql = "SELECT * FROM `customers` WHERE 1;";
+
+    try{
+        // Get DB Object
+        $db = new db();
+
+        // Connect
+        $db = $db->connect();
+
+        $stmt = $db->query($sql);
+        $customers = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $db = null;
+        echo json_encode($customers);
+
+    } catch (PDOException $e) {
+        echo '{"error": {"text": '.$e->getMessage().'}}';
+    }
 });
 
 // Get customer
@@ -93,15 +103,7 @@ $app->put('/api/customer/update/{id}', function (Request $request, Response $res
     $state = $request->getParam('state');
 
 
-    $sql = "UPDATE `customers` SET 
-                `first_name`  =:first_name],
-                `last_name`   =:last_name,
-                `phone`       =:phone,
-                `email`       =:email,
-                `address`     =:address,
-                `city`        =:city,
-                `state`       =:state
-            WHERE `id` = $id;";
+    $sql = "UPDATE `customers` SET `first_name` = :first_name], `last_name` = :last_name, `phone` = :phone, `email` = :email, `address` = :address, `city` = :city, `state` = :state WHERE `id` = $id;";
 
     try{
         // Get DB Object

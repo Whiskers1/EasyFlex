@@ -19,20 +19,23 @@
             <li class="active">
                 <a href="index.php"><i class="far fa-chart-bar fa-lg"></i> Dashboard</a>
             </li>
+            <li class="">
+                <a href="index.php?page=flexControl"><i class="far fa-chart-bar fa-lg"></i> Flex ind</a>
+            </li>
+            <li class="">
+                <a href="index.php?page=flexCode"><i class="far fa-chart-bar fa-lg"></i> Flex Code</a>
+            </li>
+            <li class="">
+                <a href="index.php?page=report"><i class="far fa-chart-bar fa-lg"></i> Report 1</a>
+            </li>
+            <li class="">
+                <a href="index.php?page=createUser"><i class="far fa-chart-bar fa-lg"></i> Create User</a>
+            </li>
             <li>
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i> Flex</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="index.php?page=flexControl">Flex ind</a>
-                    </li>
-                    <li>
-                        <a href="index.php?page=flexCode">Flex Code</a>
-                    </li>
-                    <li>
-                        <a href="#">Report 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Report 4</a>
+                        <a href="#">Report</a>
                     </li>
                 </ul>
             </li>
@@ -40,16 +43,7 @@
                 <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i>WIP Reports</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu1">
                     <li>
-                        <a href="index.php?page=report">Report 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Report 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Report 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Report 4</a>
+                        <a href="#">Report</a>
                     </li>
                 </ul>
             </li>

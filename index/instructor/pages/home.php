@@ -8,16 +8,16 @@
 ?>
 
 <div id="content" class="flex-fill" style="width: 100%; padding: 50px 50px;">
-    <div class="row">
+    <div class="row pb-2">
         <div class="col-lg-3 col-md-6">
             <div class="card text-white bg-primary">
                 <div class="card-header">
                     <div class="row d-flex justify-content-between">
                         <div class="col-xs-3">
-                            <i class="fa fa-comments fa-5x"></i>
+                            <i class="fas fa-user fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <h2>26</h2>
+                            <h1>26</h1>
                             <div>New Comments!</div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                             <i class="fab fa-stack-overflow fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <h2>12</h2>
+                            <h1>12</h1>
                             <div>New Tasks!</div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             <i class="fa fa-shopping-cart fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <h2>124</h2>
+                            <h1>124</h1>
                             <div>New Orders!</div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <i class="far fa-life-ring fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <h2>13</h2>
+                            <h1>13</h1>
                             <div>Support Tickets!</div>
                         </div>
                     </div>

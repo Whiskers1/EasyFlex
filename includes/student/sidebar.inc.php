@@ -35,29 +35,16 @@
                     if ($_SESSION['u_acc'] == 10) {
 
                     } else {
-                        echo '<li id="page_saldo" class="">
-                <a href="index.php?page=saldo"><i class="far fa-hourglass fa-lg"></i> Check saldo</a>
-            </li>
-            <li id="page_flex" class="">
-                <a href="index.php?page=flex"><i class="far fa-file fa-lg"></i> Request flex</a>
-            </li>
-            <li id="page_profile" class="">
-                <a href="index.php?page=profile"><i class="far fa-user fa-lg"></i> Profile</a>
-            </li>
-            <li>
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i> Home</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="#">Home 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Home 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Home 3</a>
-                    </li>
-                </ul>
-            </li>';
+                        echo '
+                            <li id="page_saldo" class="">
+                                <a href="index.php?page=saldo"><i class="far fa-hourglass fa-lg"></i> Check saldo</a>
+                            </li>
+                            <li id="page_flex" class="">
+                                <a href="index.php?page=flex"><i class="far fa-file fa-lg"></i> Request flex</a>
+                            </li>
+                            <li id="page_profile" class="">
+                                <a href="index.php?page=profile"><i class="far fa-user fa-lg"></i> Profile</a>
+                            </li>';
                     }
                 }
             ?>

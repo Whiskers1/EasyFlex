@@ -107,7 +107,7 @@
             <h2 class="">Userlist</h2>
             <div class="table-responsive">
                 <table id="dtUserList" class="table table-striped table-sm">
-                    <?php include_once '../../includes/instructor/functions/php/getUserList.inc.php'?>
+                    <?php include_once '../../includes/instructor/functions/php/getUserTableList.inc.php'?>
                 </table>
             </div>
         </div>

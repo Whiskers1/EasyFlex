@@ -33,19 +33,16 @@
                     </div>
                 </div>
 
-                <div class="mb-3">
+                <div class="mb-1">
                     <label>User info</label>
-                    <select class="form-control">
-                        <option>Begrænset bruger</option>
-                        <option>Normal bruger</option>
-                        <option>Admin</option>
+                    <select class="form-control" required>
+                        <?php include_once '../../includes/instructor/functions/php/getAccessList.inc.php'?>
                     </select>
                 </div>
 
                 <div class="mb-1">
-                    <label>User info</label>
                     <div class="input-group">
-                        <input type="name" class="form-control" placeholder="Username" required>
+                        <input type="name" class="form-control" placeholder="Username or UNI•Login" required>
                         <div class="input-group-append">
                             <span class="input-group-text"><i class="fas fa-user-alt fa-lg"></i></span>
                         </div>

@@ -33,7 +33,7 @@
             <h2 class="border-bottom pb-2">Flex codes</h2>
             <div class="table-responsive">
                 <table id="dtFlexCode" class="table table-striped table-sm">
-                    <?php include_once '../../includes/instructor/functions/php/getFlexCodeList.inc.php'?>
+                    <?php include_once '../../includes/instructor/functions/php/getFlexCodeTableList.inc.php'?>
                 </table>
             </div>
         </div>

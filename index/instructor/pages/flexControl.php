@@ -15,14 +15,13 @@
                     <div class="form-group col-6">
                         <label for="exampleInputEmail1">UNI•Login Brugernavn</label>
                         <select class="form-control">
-                            <option>Default select</option>
-                            <option>jaco5223</option>
+                            <?php include_once '../../includes/instructor/functions/php/getUserList.inc.php'?>
                         </select>
                     </div>
                     <div class="form-group col-6">
                         <label for="exampleInputEmail1">FlexCode</label>
                         <select class="form-control">
-                            <option>Default select</option>
+                            <?php include_once '../../includes/instructor/functions/php/getFlexCodeList.inc.php'?>
                         </select>
                     </div>
                 </div>
@@ -60,8 +59,8 @@
                 </div>
                 <div class="form-group pt-2 d-flex justify-content-between">
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1"></label>
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label" >Test </label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>

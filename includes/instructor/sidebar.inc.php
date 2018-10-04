@@ -29,7 +29,7 @@
                 <a href="index.php?page=report"><i class="far fa-chart-bar fa-lg"></i> Report 1</a>
             </li>
             <li class="">
-                <a href="index.php?page=createUser"><i class="far fa-chart-bar fa-lg"></i> Create User</a>
+                <a href="index.php?page=createUser"><i class="far fa-user fa-lg"></i> Create User</a>
             </li>
             <li>
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-folder-open fa-lg"></i> Flex</a>

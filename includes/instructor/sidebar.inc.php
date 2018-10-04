@@ -11,7 +11,7 @@
     <!-- Sidebar -->
     <nav id="sidebar">
         <div class="sidebar-header">
-            <a href="index.php"><h4>EasyFlex Instructor</h4></a>
+            <a href="index.php"><h4>EasyFlex</h4></a>
         </div>
 
         <ul class="list-unstyled components">
@@ -20,7 +20,7 @@
                 <a href="index.php"><i class="far fa-chart-bar fa-lg"></i> Dashboard</a>
             </li>
             <li class="">
-                <a href="index.php?page=flexControl"><i class="far fa-chart-bar fa-lg"></i> Flex ind</a>
+                <a href="index.php?page=checkUserInd"><i class="fas fa-check fa-lg"></i> Check ind/out</a>
             </li>
             <li class="">
                 <a href="index.php?page=flexCode"><i class="far fa-chart-bar fa-lg"></i> Flex Code</a>

@@ -53,7 +53,7 @@ if (isset($_POST['search'])) {
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <div id="datetimepickerend" class="input-append date form_datetime">
+                            <div id="datetimepicker" class="input-append date form_datetime">
                                 <div class="input-group">
                                     <input type="text" name="" class="form-control" value="" readonly placeholder="Date">
                                     <div class="input-group-append">
